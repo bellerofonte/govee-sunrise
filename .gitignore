@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Do not include config file with private or sensitive information in the repo
+**/config.py
+**/devices.json
